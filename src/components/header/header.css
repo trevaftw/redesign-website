@@ -1,0 +1,29 @@
+.nav-bar{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: aliceblue;
+}
+
+#nav-icon {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+#nav-icon, #hidden {
+    min-width: auto;
+    min-height: inherit;
+    padding: 0;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+#title {
+    font-size: 5vh;
+}
