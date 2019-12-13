@@ -12,7 +12,9 @@ class App extends Component {
     render() {
         return (
             <nav className="nav-bar">
-                <img id="nav-icon" onClick={this.handleNav} src={Navicon} alt="navigation dropdown" /><div id="title">Trevor</div><div id="hidden"></div>
+                <img id="nav-icon" onClick={this.handleNav} src={Navicon} alt="navigation dropdown" />
+                <div id="title">Trevor</div>
+                <div id="hidden"></div>
             </nav>
         );
     }
